@@ -60,6 +60,13 @@
 			);
 			target = 2655457C2E5B90BB00E5B415 /* MacLandmarks */;
 		};
+		2687F6932E5FDE5A00FD61C9 /* Exceptions for "MacLandmarks" folder in "Landmarks" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				LandmarkCommands.swift,
+			);
+			target = 2644F4A32E25F37B00C3BE3C /* Landmarks */;
+		};
 		26C80DDF2E556B5200AEF2D8 /* Exceptions for "Landmarks" folder in "WatchLandmarks Watch App" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -92,6 +99,9 @@
 		};
 		2655457E2E5B90BC00E5B415 /* MacLandmarks */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2687F6932E5FDE5A00FD61C9 /* Exceptions for "MacLandmarks" folder in "Landmarks" target */,
+			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
 		};
